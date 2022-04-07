@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- FontAwesome CSS -->
+<script src="https://use.fontawesome.com/bd864fa3e7.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<title>NanoMind - Resumes</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-primary">
+<a class="navbar-brand" href="index.html"><img src="assets/images/logo-ico.png" class="brand-icon"><span class="brand-name">NanoMind <small>Beta</small></span></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="about.html">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="courses.html">Courses</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="resumes.html">Resumes</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="jobs.html">Jobs</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="u-myaccount.html">My Account</a>
+</li>
+</ul>
+</div>
+</nav>
+
+<main role="main">
+<div class="jumbotron pt-6">
+<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="emp-bulb">
+						<img src="assets/images/blub_01.png" class="img-fluid d-inline">
+						<img src="assets/images/blub_02.png" class="img-fluid d-inline">
+						<img src="assets/images/blub_03.png" class="img-fluid d-inline">
+					</div>
+					<img src="assets/images/idea.png" class="img-fluid">
+				</div>
+				<div class="col-md-4 float-sm-left float-right float-lg-right float-xl-right bg-white pt-3">
+					<nav>
+					<div class="nav nav-tabs" id="nav-tab" role="tablist">
+						<a class="nav-item nav-link active" id="nav-login-tab" data-toggle="tab" href="#nav-login" role="tab" aria-controls="nav-login" aria-selected="true">Employer Sign In</a>
+						<a class="nav-item nav-link" id="nav-register-tab" data-toggle="tab" href="#nav-register" role="tab" aria-controls="nav-register" aria-selected="false">Create An Account</a>
+					</div>
+					</nav>
+					<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active pt-3" id="nav-login" role="tabpanel" aria-labelledby="nav-login-tab">
+						<form>
+							<div class="form-group col-md-12">
+								<label for="email">Company Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Company Email">
+							</div>
+							<div class="form-group col-md-12">
+								<label for="password">Password</label>
+								<input type="password" class="form-control" id="password" placeholder="Password">
+							</div>
+							<div class="form-group p-3">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" id="A-login">
+									<label class="form-check-label small" for="A-login">
+										Check me to auto login
+									</label>
+								</div>
+								<a href=".-." data-toggle="modal" data-target="#forgetpassword">forget password</a>
+							</div>
+							<button type="submit" class="btn btn-primary mb-3 ml-3">Sign in</button>
+						</form>
+							<div class="modal fade" id="forgetpassword" tabindex="-1" role="dialog" aria-labelledby="forgetpassword" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<form>
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="forgetpassword">Forget Password</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body">
+												<div class="form-group col-md-12">
+													<label for="email">Your Email, PhoneNumber</label>
+													<input type="email" class="form-control" id="email" placeholder="Email, Username, PhoneNumber">
+												</div>									
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-primary">Send</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+					</div>
+					<div class="tab-pane fade pt-3" id="nav-register" role="tabpanel" aria-labelledby="nav-register-tab">
+					
+						<form>
+							<div class="form-group col-md-12">
+								<label for="email">Company Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Only Company Email's">
+							</div>
+							<div class="form-group col-md-12">
+								<label for="email">Company Name</label>
+								<input type="email" class="form-control" id="email" placeholder="Company Name">
+							</div>
+							<div class="form-group col-md-12">
+								<label for="password">Password</label>
+								<input type="password" class="form-control" id="password" placeholder="Password">
+							</div>
+							<div class="form-group col-md-12">
+								<label for="Repeat-password">Repeat-Password</label>
+								<input type="password" class="form-control" id="Repeat-password" placeholder="Repeat-Password">
+							</div>
+							<div class="form-group p-3">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" id="A-login">
+									<label class="form-check-label small" for="A-login">
+										Check me for <a href=".-." data-toggle="modal" data-target="#terms"><u>Terms and Conditions</u></a>,<a href=".-." data-toggle="modal" data-target="#privacy"><u>Privcy Policy</u></a>
+									</label>
+								</div>
+							</div>
+							
+							<div class="modal fade" id="terms" tabindex="-1" role="dialog" aria-labelledby="terms" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="terms">Terms and Conditions</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body">
+													.......											
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+								</div>
+							</div>
+							
+							
+							<div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="privacy" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="privacy">Privacy Policy</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body">
+													.......											
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+								</div>
+							</div>
+							<button type="submit" class="btn btn-primary mb-3 ml-3">Create An Account</button>
+						</form>
+					
+					
+					
+					
+					</div>
+					</div>
+				</div>
+			</div>
+</div>
+</div>
+
+<div class="container">
+<!-- About Nanomind -->
+<div class="row">
+<div class="col-md-4">
+<h2>Hire the Skilled</h2>
+<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+</div>
+<div class="col-md-4">
+<h2>Connect with Global</h2>
+<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+</div>
+<div class="col-md-4">
+<h2>Post Your Requirement</h2>
+<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+</div>
+</div>
+</div> <!-- /container -->
+<hr>
+
+<div class="jumbotron pt-6">
+<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center"><u>Search Resumes</u></h2>
+					<form>
+						<div class="row">
+							<div class="col-md-7 m-auto">
+								<div class="input-group mt-2">
+									<input type="text" class="form-control" id="jobtitle" placeholder="Job Title, Skills, or Company">
+									<input type="text" class="form-control" id="location" placeholder="Location">
+									<div class="input-group-prepend">
+										<button type="button" class="btn btn-primary">search</button>
+									</div>
+								</div>
+								<a data-toggle="collapse" href="#extendsearch" role="button" aria-expanded="false" aria-controls="extendsearch" class="small float-right d-block">Extended Search</a>
+							</div>
+						</div>
+						
+					<div class="position-relative">
+						<div class="col-md-12">
+							<div class="collapse" id="extendsearch">
+							<form>
+								<div class="card">
+									<div class="card-header"><a data-toggle="collapse" href="#extendsearch" role="button" aria-expanded="true" aria-controls="extendsearch" class="float-right">	<span aria-hidden="true">&times;</span></a></div>
+									<div class="card-body">
+										
+										<div class="row">
+											<div class="col-md-4">
+											<h6 class="m-0">Major Location's</h6>
+												<input type="text" class="form-control mb-3" id="location" placeholder="location">
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="loc1" value="loc1">
+												<label class="form-check-label" for="loc1">Location</label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="loc2" value="loc2">
+												<label class="form-check-label" for="loc2">Location</label>
+												</div>
+											</div>
+											
+											
+											<div class="col-md-2">
+											<h6 class="m-0">Job Type</h6>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="type1" value="type1">
+												<label class="form-check-label" for="type1">Full-time</label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="type2" value="type2">
+												<label class="form-check-label" for="type2">Part-time</label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="type3" value="type3">
+												<label class="form-check-label" for="type3">Internship</label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="type4" value="type4">
+												<label class="form-check-label" for="type4">Contract</label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="type5" value="type5">
+												<label class="form-check-label" for="type5">Temporary</label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="type6" value="type6">
+												<label class="form-check-label" for="type6">Volunteer</label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="type7" value="type7">
+												<label class="form-check-label" for="type7">Freelancer</label>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+											<h6 class="m-0">Date postedd</h6>
+												<div class="form-check">
+												<input class="form-check-input"type="radio" name="postedd" id="past_24_hours" value="past_24_hours">
+												<label class="form-check-label" for="past_24_hours">Past 24 hours</label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input"type="radio" name="postedd" id="past_week" value="past_week">
+												<label class="form-check-label" for="past_week">Past Week</label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input"type="radio" name="postedd" id="past_month" value="past_month">
+												<label class="form-check-label" for="past_month">Past Month</label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input"type="radio" name="postedd" id="any_time" value="any_time">
+												<label class="form-check-label" for="any_time">Any Time</label>
+												</div>
+											</div>
+											
+											<div class="col-md-3">
+											<h6 class="m-0">Experience Level</h6>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="fresher" value="fresher">
+												<label class="form-check-label" for="fresher">Fresher</label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="intern" value="intern">
+												<label class="form-check-label" for="intern">Internship</label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="1year" value="1year">
+												<label class="form-check-label" for="1year"> less than or equal to 1year </label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="1to5" value="1to5">
+												<label class="form-check-label" for="1to5"> 1 to 5 years </label>
+												</div>
+												<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="more5" value="more5">
+												<label class="form-check-label" for="more5">Morethan 5 Years</label>
+												</div>
+											</div>
+										</div>
+										<button type="button" class="btn btn-primary float-right">Search</button>
+									</div>
+								</div>
+							</form>
+							</div>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+</div>
+</div>
+
+<div class="container">
+					<div class="row">
+					<div class="col-md-3">
+						<div class="card emp">
+						<div class="card-body p-md-0">
+						<div class="media p-md-3">
+						<img src="https://via.placeholder.com/50" class="mr-3 rounded-circle">
+						<div class="media-body">
+							<h6 class="m-md-0">Full Name</h6>
+							<small>Fresher</small>
+						</div>
+						</div>
+						<div class="list-group">
+							<a class="list-group-item list-group-item-action" href="#">View Profile</a>
+							<a class="list-group-item list-group-item-action" href="#">Message</a>
+							<a class="list-group-item list-group-item-action" href="#">Download CV</a>
+							<a class="list-group-item list-group-item-action" href="#">ShortList</a>
+							<a class="list-group-item list-group-item-action" href="#">Keep a Test</a>
+						</div>
+					</div>
+					</div>
+					</div>
+					<!--Profile End-->
+					<div class="col-md-3">
+						<div class="card emp">
+						<div class="card-body p-md-0">
+						<div class="media p-md-3">
+						<img src="https://via.placeholder.com/50" class="mr-3 rounded-circle">
+						<div class="media-body">
+							<h6 class="m-md-0">Full Name</h6>
+							<small>Fresher</small>
+						</div>
+						</div>
+						<div class="list-group">
+							<a class="list-group-item list-group-item-action" href="#">View Profile</a>
+							<a class="list-group-item list-group-item-action" href="#">Message</a>
+							<a class="list-group-item list-group-item-action" href="#">Download CV</a>
+							<a class="list-group-item list-group-item-action" href="#">ShortList</a>
+							<a class="list-group-item list-group-item-action" href="#">Keep a Test</a>
+						</div>
+					</div>
+					</div>
+					</div>
+					<!--Profile End-->
+					<div class="col-md-3">
+						<div class="card emp">
+						<div class="card-body p-md-0">
+						<div class="media p-md-3">
+						<img src="https://via.placeholder.com/50" class="mr-3 rounded-circle">
+						<div class="media-body">
+							<h6 class="m-md-0">Full Name</h6>
+							<small>Fresher</small>
+						</div>
+						</div>
+						<div class="list-group">
+							<a class="list-group-item list-group-item-action" href="#">View Profile</a>
+							<a class="list-group-item list-group-item-action" href="#">Message</a>
+							<a class="list-group-item list-group-item-action" href="#">Download CV</a>
+							<a class="list-group-item list-group-item-action" href="#">ShortList</a>
+							<a class="list-group-item list-group-item-action" href="#">Keep a Test</a>
+						</div>
+					</div>
+					</div>
+					</div>
+					<!--Profile End-->
+					<div class="col-md-3">
+						<div class="card emp">
+						<div class="card-body p-md-0">
+						<div class="media p-md-3">
+						<img src="https://via.placeholder.com/50" class="mr-3 rounded-circle">
+						<div class="media-body">
+							<h6 class="m-md-0">Full Name</h6>
+							<small>Fresher</small>
+						</div>
+						</div>
+						<div class="list-group">
+							<a class="list-group-item list-group-item-action" href="#">View Profile</a>
+							<a class="list-group-item list-group-item-action" href="#">Message</a>
+							<a class="list-group-item list-group-item-action" href="#">Download CV</a>
+							<a class="list-group-item list-group-item-action" href="#">ShortList</a>
+							<a class="list-group-item list-group-item-action" href="#">Keep a Test</a>
+						</div>
+					</div>
+					</div>
+					</div>
+					<!--Profile End-->
+			</div>
+			</div>
+</main>
+<footer class="footer">
+<hr>
+<div class="container">
+<div class="row mt-5">
+<div class="col-md-9">
+<h3><u>About Us</u></h3>
+<p>We are just a group of Engineers who are professionally into development and designing Feilds where we all want the things make into easier which kept as complicated and hard to learn in the beginning. As well as we want to increase skill growth in the society so that we all could move forward technically towards prosperity of the society by bringing up the possibilities to solutions. What we charge is Your Time nothing more to make you to reach higher levels.</p>
+<h5><u>Follow Us</u></h5>
+<div class="social-btns d-flex justify-content-left">
+	<span class="btn-icons"><a href="#" class="btn btn-facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a></span>
+	<span class="btn-icons"><a href="#" class="btn btn-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a></span>
+	<span class="btn-icons"><a href="#" class="btn btn-github"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a></span> 
+</div>
+</div>
+<div class="col-md-3">
+<h3 class="text-left"><u>Contact Info</u></h3>
+<ul class="list-unstyled contact-info text-left">
+<li><i class="fa fa-whatsapp" aria-hidden="true"></i><span class="phonenumber">+91-9440786335 </span></li>
+<li><i class="fa fa-envelope-o" aria-hidden="true"></i><span class="mailid">Mail@nanomind.info </span></li>
+</ul>
+<a href="#" class="appstore"><img src="assets/images/appstore.png" class="img-fluid"></a>
+
+<a href="#" class="playstore"><img src="assets/images/googleplay.png" class="img-fluid"></a>
+</div>
+</div>
+<hr>
+<ul class="list-inline">
+<li class="list-inline-item"><a href="#">Courses</a></li>
+<li class="list-inline-item"><a href="#">Jobs</a></li>
+<li class="list-inline-item"><a href="#">Resumes</a></li>
+<li class="list-inline-item"><a href="#">Feedback</a></li>
+<li class="list-inline-item"><a href="#">Terms and Conditions</a></li>
+<li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+<li class="list-inline-item"><a href="#">DMCA</a></li>
+</ul>
+</div>
+</footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

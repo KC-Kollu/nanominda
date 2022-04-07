@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- FontAwesome CSS -->
+		<script src="https://use.fontawesome.com/bd864fa3e7.js"></script>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<title>NanoMind - Course</title>
+	</head>
+	<body>
+		<div class="overlay"></div>
+		<div class="wrapper">
+			<!-- Notes Sidebar-->
+			<nav id="notessidebar">
+				<div class="card">
+					<div class="card-header">
+						<h5 class="card-title m-0">Notes</h5>
+						<div id="dismiss">
+							<span aria-hidden="true">&times;</span>
+						</div>
+					</div>
+					<div class="scroll note-body card-body" placeholder="Type something..." contenteditable="true">
+					</div>
+					<div class="card-footer p-2 justify-content-end">
+						<button type="button" class="btn"> Save </button>
+					</div>
+				</div>
+			</nav>
+			<nav class="navbar navbar-expand-md navbar-light fixed-top bg-primary">
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logo-ico.png" class="brand-icon"><span class="brand-name">NanoMind <small>Beta</small></span></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="courses.html">Courses</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="resumes.html">Resumes</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="jobs.html">Jobs</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="u-myaccount.html">My Account</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<main role="main">
+				<div class="jumbotron pb-0 mb-4 pr-md-3">
+					<div class="row">
+						<nav aria-label="breadcrumb" class="col-md-8">
+							<ol class="breadcrumb m-0">
+								<li class="breadcrumb-item"><a href="index">Home</a></li>
+								<li class="breadcrumb-item" aria-current="page">Course Library</li>
+								<li class="breadcrumb-item active" aria-current="page"><u>Quiz topic</u></li>
+							</ol>
+						</nav>
+						<div class="col-md-4">
+							<div class="lessicons justify-content-end">
+								<div class="previous">
+									<button type="button" class="btn"><i class="fa fa-angle-left" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Previous Lesson"></i></button>
+								</div>
+								<div class="next">
+									<button type="button" class="btn"><i class="fa fa-angle-right" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Next Lesson"></i></button>
+								</div>
+								<div class="notes" id="notessidebarCollapse">
+									<button type="button" class="btn"><i class="fa fa-file-text-o" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Notes"></i></button>
+								</div>
+								<div class="search">
+									<button type="button" class="btn" data-toggle="collapse" href="#extendsearch" role="button" aria-expanded="false" aria-controls="extendsearch" ><i class="fa fa-search" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Search"></i></button>
+								</div>
+								<div class="lessclose">
+									<button type="button" class="btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="position-relative mt-0 collapse" id="extendsearch">
+						<div class="row">
+							<div class="col-md-6"></div>
+							<div class="col-md-6">
+								<form>
+									<div class="card">
+										<div class="card-header"><a data-toggle="collapse" href="#extendsearch" role="button" aria-expanded="true" aria-controls="extendsearch" class="float-right"><span aria-hidden="true">&times;</span></a></div>
+										<div class="card-body">
+											<div class="row">
+												<div class="col-md-12">
+													<div class="input-group mb-2">
+														<input type="text" class="form-control" id="search-course" placeholder="Search Keywords">
+													</div>
+												</div>
+											</div>
+											<h6>Levels</h6>
+											<div class="row">
+												<div class="col-md-4">
+													<div class="custom-control custom-switch custom-control-inline">
+														<input type="checkbox" class="custom-control-input" id="bei">
+														<label class="custom-control-label" for="bei">Begineer</label>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="custom-control custom-switch custom-control-inline">
+														<input type="checkbox" class="custom-control-input" id="int">
+														<label class="custom-control-label" for="int">Intermediate</label>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="custom-control custom-switch custom-control-inline">
+														<input type="checkbox" class="custom-control-input" id="adv">
+														<label class="custom-control-label" for="adv">Advanced</label>
+													</div>
+												</div>
+											</div>
+											<h6>Media Included</h6>
+											<div class="row">
+												<div class="col-md-4">
+													<div class="custom-control custom-switch custom-control-inline">
+														<input type="checkbox" class="custom-control-input" id="video">
+														<label class="custom-control-label" for="video">Video</label>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="custom-control custom-switch custom-control-inline">
+														<input type="checkbox" class="custom-control-input" id="audio">
+														<label class="custom-control-label" for="audio">Audio</label>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="custom-control custom-switch custom-control-inline">
+														<input type="checkbox" class="custom-control-input" id="docs">
+														<label class="custom-control-label" for="docs">Documents</label>
+													</div>
+												</div>
+											</div>
+											<h6>Preffered Language's</h6>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="input-group mb-2">
+														<input type="text" class="form-control col-md-8" id="search-language" placeholder="Search language">
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="custom-control custom-switch custom-control-inline">
+														<input type="checkbox" class="custom-control-input" id="lang1">
+														<label class="custom-control-label" for="lang1">language 1</label>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="custom-control custom-switch custom-control-inline">
+														<input type="checkbox" class="custom-control-input" id="lang2">
+														<label class="custom-control-label" for="lang2">language 2</label>
+													</div>
+												</div>
+											</div>
+											<h6>Instructor Offers</h6>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="custom-control custom-switch custom-control-inline">
+														<input type="checkbox" class="custom-control-input" id="tution">
+														<label class="custom-control-label" for="tution">PersonnalTeacher</label>
+													</div>
+												</div>
+											</div>
+											<button type="button" class="btn btn-primary float-right">Search</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<!--Video Lesson -->
+					<div class="row">
+						<div class="col-md-8 pr-md-0">
+							<div class="card">
+								<div class="card-header">Quiz Topic and question numbers 1 to end <span class="float-right">Timer :</span></div >
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-8">
+											<h5>Question No: 1</h5>		
+										</div>
+										<div class="col-md-4 pl-5 pr-4">
+											<a href="#"><button type="button" class="btn btn-primary p-1">Use Console</button></a>
+												or
+											<a href="#"><button type="button" class="btn btn-primary float-right p-1">Upload Files</button></a>
+										</div>
+										
+										<hr/>
+										<div class="col-md-12">	
+											<h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque</h6>	
+										</div>
+									</div>
+									
+									
+									<div class="row quizoptions">
+										<div class="col-md-6">
+											<div class="custom-control custom-radio">
+												<input class="custom-control-input" type="radio" name="quiz" id="option1" value="option1" checked>
+												<labelclass="custom-control-label" for="option1">
+													Default radio
+												</label>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="custom-control custom-radio">
+												<input class="custom-control-input" type="radio" name="quiz" id="option2" value="option2">
+												<labelclass="custom-control-label" for="option2">
+													Second default radio
+												</label>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="custom-control custom-radio">
+											<input class="custom-control-input" type="radio" name="quiz" id="option3" value="option3">
+											<labelclass="custom-control-label" for="option3">
+												Third Default radio
+											</label>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="custom-control custom-radio">
+												<input class="custom-control-input" type="radio" name="quiz" id="option4" value="option4">
+												<labelclass="custom-control-label" for="option4">
+													Fourth default radio
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">Quiz Topic and question numbers 1 to end <span class="float-right">Timer :</span></div >
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-8">
+											<h5>Question No: 1</h5>		
+										</div>
+										<div class="col-md-4 pl-5 pr-4">
+											<button type="button" class="btn btn-primary float-right p-1">Download Code</button>
+										</div>
+										
+										<hr/>
+										<div class="col-md-12">	
+											<h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </h6>	
+										</div>
+									</div>
+									
+									
+									<div class="row quizoptions">
+										<div class="col-md-6 bg-primary">
+											<div class="custom-control custom-radio">
+												<input class="custom-control-input" type="radio" name="quiz" id="option1" value="option1" checked>
+												<labelclass="custom-control-label" for="option1">
+													Default radio
+												</label>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="custom-control custom-radio">
+												<input class="custom-control-input" type="radio" name="quiz" id="option2" value="option2">
+												<labelclass="custom-control-label" for="option2">
+													Second default radio
+												</label>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="custom-control custom-radio">
+											<input class="custom-control-input" type="radio" name="quiz" id="option3" value="option3">
+											<labelclass="custom-control-label" for="option3">
+												Third Default radio
+											</label>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="custom-control custom-radio">
+												<input class="custom-control-input" type="radio" name="quiz" id="option4" value="option4">
+												<labelclass="custom-control-label" for="option4">
+													Fourth default radio
+												</label>
+											</div>
+										</div>
+									</div>
+									<button type="button" class="btn btn-primary mt-3">Privious</button>
+									<button type="button" class="btn btn-primary float-right mt-3">Next</button>
+								</div>
+								<div class="card-footer pr-md-4 pl-md-4 pt-md-2">
+									<p><strong>Explaination :</strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 pl-md-0">
+							<div class="card rounded-0">
+								<div class="card-header">
+									<div class="row">
+										<span class="col-md-7"><b>Quiz Topics</b></span>
+										<div class="col-md-5 d-flex">
+											<span class="mr-1">Light</span> 
+											<div class="custom-control custom-switch">
+												<input type="checkbox" class="custom-control-input" id="dark">
+												<label class="custom-control-label" for="dark"> Dark</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="list-group" id="lessflow">
+									<div class="force-overflow">
+										<a href="#" class="list-group-item list-group-item-action active">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-1">List group item heading</h6>
+												<small>3 days ago</small>
+											</div>
+											
+											
+										</a>
+										<a href="#" class="list-group-item list-group-item-action">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-1">List group item heading</h6>
+												<small>3 days ago</small>
+											</div>
+											
+											
+										</a>
+										<a href="#" class="list-group-item list-group-item-action">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-1">List group item heading</h6>
+												<small>3 days ago</small>
+											</div>
+											
+											
+										</a>
+										<a href="#" class="list-group-item list-group-item-action">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-1">List group item heading</h6>
+												<small>3 days ago</small>
+											</div>
+											
+											
+										</a>
+										<a href="#" class="list-group-item list-group-item-action">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-1">List group item heading</h6>
+												<small>3 days ago</small>
+											</div>
+											
+											
+										</a>
+										<a href="#" class="list-group-item list-group-item-action">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-1">List group item heading</h6>
+												<small>3 days ago</small>
+											</div>
+											
+											
+										</a>
+										<a href="#" class="list-group-item list-group-item-action">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-1">List group item heading</h6>
+												<small>3 days ago</small>
+											</div>
+											
+											
+										</a>
+										<a href="#" class="list-group-item list-group-item-action">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-1">List group item heading</h6>
+												<small>3 days ago</small>
+											</div>
+											
+											
+										</a>
+										<a href="#" class="list-group-item list-group-item-action">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-1">List group item heading</h6>
+												<small>3 days ago</small>
+											</div>
+											
+											
+										</a>
+										<a href="#" class="list-group-item list-group-item-action">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-1">List group item heading</h6>
+												<small>3 days ago</small>
+											</div>
+											
+											
+										</a>
+										<a href="#" class="list-group-item list-group-item-action">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-1">List group item heading</h6>
+												<small>3 days ago</small>
+											</div>
+											
+										</a>
+										<a href="#" class="list-group-item list-group-item-action">
+											<div class="d-flex w-100 justify-content-between">
+												<h6 class="mb-1">List group item heading</h6>
+												<small>3 days ago</small>
+											</div>
+											
+											
+										</a>
+									</div>
+								</div>
+								<div class="card-footer text-muted">
+									<a href=#>
+										<div class="p-3">
+											<span>Quiz On Entire Section</span>
+										</div>
+									</a>
+									<a href=# class="col-md-6 float-right">
+										<div class="analyzequiz p-3 text-right">
+											<b>Your score: N/A</b>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /container -->
+			</main>
+		</div>
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>

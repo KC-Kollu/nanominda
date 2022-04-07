@@ -1,0 +1,1709 @@
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.75rem;
+    line-height: 1rem;
+}
+
+.navbar-brand .brand-icon {
+    width: 30px;
+}
+
+.navbar-brand .brand-name {
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-brand .brand-name small {
+    font-weight: 700;
+    font-size: 9pt;
+    display: block;
+    float: right;
+    margin-top: -9px;
+    text-transform: capitalize;
+    color: #f8f9fa;
+    margin-left: -19px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fbfbfb;
+    font-weight: 600;
+    border-bottom: 1px solid #fcf;
+    padding: .30rem .6rem;
+    margin-bottom: .25rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    font-weight: 500;
+}
+
+.login-opt .or {
+    font-weight: 700;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    border: 2px solid #ee7902;
+    padding: 0.75rem;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.btn-icons {
+    margin: 1rem;
+    width: 300px;
+    display: block;
+}
+
+.btn-icons .fa {
+    float: left;
+    font-size: 22pt;
+    padding: .50rem;
+    border-right: 1px solid #333;
+    width: 50px;
+}
+
+.btn-icons span {
+    float: left;
+    margin-left: 0.70rem;
+    padding-top: 0.5rem;
+    font-weight: 600;
+}
+
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+    padding: 0px;
+}
+
+.btn-facebook:hover {
+    color: #fff;
+    background-color: #586a92;
+    border-color: #586a92;
+}
+
+.btn-facebook.focus,.btn-facebook:focus {
+    box-shadow: 0 0 0 .2rem #727b8e
+}
+
+.btn-facebook.disabled,.btn-facebook:disabled {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.btn-facebook:not(:disabled):not(.disabled).active,.btn-facebook:not(:disabled):not(.disabled):active,.show>.btn-facebook.dropdown-toggle {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.btn-facebook:not(:disabled):not(.disabled).active:focus,.btn-facebook:not(:disabled):not(.disabled):active:focus,.show>.btn-facebook.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem #727b8e
+}
+
+.btn-linkedin {
+    color: #fff;
+    background-color: #0077b5;
+    border-color: #0077b5;
+    padding: 0;
+}
+
+.btn-linkedin:hover {
+    color: #fff;
+    background-color: #2180b1;
+    border-color: #2180b1;
+}
+
+.btn-linkedin.focus,.btn-linkedin:focus {
+    box-shadow: 0 0 0 .2rem #4078c0
+}
+
+.btn-linkedin.disabled,.btn-linkedin:disabled {
+    color: #fff;
+    background-color: #2180b1;
+    border-color: #2180b1;
+}
+
+.btn-linkedin:not(:disabled):not(.disabled).active,.btn-linkedin:not(:disabled):not(.disabled):active,.show>.btn-linkedin.dropdown-toggle {
+    color: #fff;
+    background-color: #2180b1;
+    border-color: #2180b1;
+}
+
+.btn-linkedin:not(:disabled):not(.disabled).active:focus,.btn-linkedin:not(:disabled):not(.disabled):active:focus,.show>.btn-linkedin.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem #4078c0
+}
+
+.btn-github {
+    color: #fff;
+    background-color: #4078c0;
+    border-color: #4078c0;
+    padding: 0;
+}
+
+.btn-github:hover {
+    color: #fff;
+    background-color: #4078c0;
+    border-color: #4078c0;
+}
+
+.btn-github.focus,.btn-github:focus {
+    box-shadow: 0 0 0 .2rem #4078c0
+}
+
+.btn-github.disabled,.btn-github:disabled {
+    color: #fff;
+    background-color: #4078c0;
+    border-color: #4078c0;
+}
+
+.btn-github:not(:disabled):not(.disabled).active,.btn-github:not(:disabled):not(.disabled):active,.show>.btn-github.dropdown-toggle {
+    color: #fff;
+    background-color: #4078c0;
+    border-color: #4078c0;
+}
+
+.btn-github:not(:disabled):not(.disabled).active:focus,.btn-github:not(:disabled):not(.disabled):active:focus,.show>.btn-github.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem #4078c0
+}
+
+.btn-google {
+    color: #fff;
+    background-color: #ea4335;
+    border-color: #ea4335;
+    padding: 0;
+}
+
+.btn-google:hover {
+    color: #fff;
+    background-color: #ea4335;
+    border-color: #ea4335;
+}
+
+.btn-google.focus,.btn-google:focus {
+    box-shadow: 0 0 0 .2rem #dc3545
+}
+
+.btn-google.disabled,.btn-google:disabled {
+    color: #fff;
+    background-color: #ea4335;
+    border-color: #ea4335;
+}
+
+.btn-google:not(:disabled):not(.disabled).active,.btn-google:not(:disabled):not(.disabled):active,.show>.btn-google.dropdown-toggle {
+    color: #fff;
+    background-color: #ea4335;
+    border-color: #ea4335;
+}
+
+.btn-google:not(:disabled):not(.disabled).active:focus,.btn-google:not(:disabled):not(.disabled):active:focus,.show>.btn-google.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem #dc3545
+}
+
+.courses .card-footer {
+    padding: 0rem;
+    display: flex;
+    width: 100%;
+}
+
+.accountcourses .card-footer {
+    padding: 0rem;
+    display: flex;
+    width: 100%;
+}
+
+.card-footer {
+    padding: 0rem;
+    display: flex;
+}
+
+.card-footer a {
+    text-decoration: none;
+}
+
+.prog-btn {
+    width: 65% !important;
+}
+
+.card-footer .btn {
+    border-left: 1px solid #333;
+    border-radius: 0;
+    width: 80%;
+    background: rgba(0,0,0,.9);
+    color: #fcfcfc;
+}
+
+.emp .card-footer p {
+    margin: 0px 20px;
+    display: inline-block;
+    padding: 6px 0;
+}
+
+.emp .card-footer .btn {
+    border-left: 1px solid #333;
+    border-radius: 0;
+    width: 100%;
+    background: rgba(0,0,0,.9);
+    color: #fcfcfc;
+}
+
+.card-link {
+    width: 34%;
+    margin: auto;
+    padding: 0.7rem .75rem 0.7rem 0.7rem;
+    font-weight: 600;
+}
+
+.card-footer .prog-link {
+    width: 35%;
+}
+
+.prog-link {
+    padding: 0.7rem .75rem 0.7rem 0.7rem;
+    font-weight: 600;
+}
+
+.c-stage {
+    width: 80%;
+    position: relative;
+    float: left;
+}
+
+.c-stageico {
+    width: 20%;
+}
+
+.c-users {
+    width: 20%;
+    font-weight: 500;
+    font-size: 12pt;
+    color: #333;
+}
+
+.c-apply {
+    float: right;
+}
+
+.c-review {
+    color: #5d5d5d;
+    float: right;
+}
+
+.c-review .checked {
+    color: #4078c0;
+}
+
+.social-btns .btn-icons {
+    margin: auto;
+    width: 300px;
+    display: block;
+}
+
+.social-btns .btn-icons .fa {
+    float: left;
+    font-size: 18pt;
+    padding: .50rem;
+    border-right: 1px solid #333;
+    width: 50px;
+}
+
+.social-btns .btn-icons span {
+    float: left;
+    margin-left: 0.70rem;
+    padding-top: 0.5rem;
+    font-weight: 600;
+    margin-right: 1.5rem;
+}
+
+.contact-info li {
+    margin-bottom: 1rem;
+}
+
+.contact-info .phonenumber {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact-info .mailid {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.contact-info .fa-whatsapp {
+    color: #128c7e;
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    float: left;
+    text-align: left;
+    margin-right: .75rem;
+}
+
+.contact-info .fa-envelope-o {
+    color: #dd4b39;
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    float: left;
+    text-align: left;
+    margin-right: .75rem;
+}
+
+.appstore {
+    display: block;
+    width: 154px;
+    margin-bottom: 0.75rem;
+    position: relative;
+    height: 50px;
+}
+
+.playstore {
+    display: block;
+    width: 154px;
+    margin-bottom: 0.75rem;
+    position: relative;
+    height: 50px;
+}
+
+.emp-bulb {
+    width: 500px;
+    margin: auto;
+    left: 22%;
+    position: relative;
+    top: -15px;
+}
+
+.emp-bulb img {
+    width: 18%;
+}
+
+.job-button {
+    margin: 2px;
+}
+
+.postedon {
+    display: block;
+}
+
+.postedon i {
+    font-size: 28px;
+    display: block;
+    width: 30px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.postedon .title {
+    display: block;
+    font-size: 16px;
+    margin-left: 38px;
+}
+
+.postedon .value {
+    display: block;
+    margin-top: 0px;
+}
+
+.skillsreq {
+    display: block;
+}
+
+.skillsreq i {
+    font-size: 27px;
+    display: block;
+    width: 30px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.skillsreq .title {
+    display: block;
+    font-size: 18px;
+    margin-left: 38px;
+}
+
+.skillsreq .values {
+    display: block;
+    margin-top: 0px;
+}
+
+.jobloc {
+    display: block;
+}
+
+.jobloc i {
+    font-size: 25px;
+    display: block;
+    width: 30px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.jobloc .title {
+    display: block;
+    font-size: 16px;
+    margin-left: 38px;
+}
+
+.jobloc .value {
+    display: block;
+    margin-top: 0px;
+}
+
+.lessonitems {
+    display: flex;
+    width: 33.333%;
+}
+
+.lessonitems .video {
+    height: 100%;
+    width: 20%;
+    display: block;
+}
+
+.lessonitems .video svg {
+    width: 40px;
+    height: 100%;
+    margin: 0% 10%;
+    padding: 10%;
+}
+
+.lessonitems .audio {
+    height: 100%;
+    width: 20%;
+    display: block;
+}
+
+.lessonitems .audio svg {
+    width: 40px;
+    height: 100%;
+    margin: 0% 10%;
+    padding: 10%;
+}
+
+.lessonitems .document {
+    height: 100%;
+    width: 20%;
+    display: block;
+}
+
+.lessonitems .document svg {
+    width: 40px;
+    height: 100%;
+    margin: 0% 10%;
+    padding: 10%;
+}
+
+.lessonitems .download {
+    height: 100%;
+    width: 20%;
+    display: block;
+}
+
+.lessonitems .download svg {
+    width: 40px;
+    height: 100%;
+    margin: 0% 10%;
+    padding: 10%;
+}
+
+.lessonitems .score {
+    height: 100%;
+    width: 20%;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    padding: 2%;
+}
+
+.lessonitems .score a {
+    text-decoration: none;
+}
+
+.lessonitems .score .gainscore {
+    font-size: 20px;
+    text-align: center;
+}
+
+.lessonitems .score .yourscore {
+    font-size: 9px;
+}
+
+.quiz .completed {
+    background: url('../images/timeline-completed.png');
+    background-size: 11px;
+    background-repeat-x: no-repeat;
+    background-position: center 0%;
+}
+
+.quiz .lessonprogress {
+    background: url('../images/timeline.png');
+    background-size: 15px;
+    background-repeat-x: no-repeat;
+    background-position: center 0%;
+}
+
+.messages .card .list-group {
+    float: left;
+    height: 500px;
+    background: #F5F5F5;
+    overflow-y: scroll;
+}
+
+.message .card-body {
+    height: 453px;
+}
+
+.message .card-body .msg {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.message .card-body .msgs {
+    height: 340px;
+    background: #FFF;
+    overflow-y: scroll;
+}
+
+.about .list-group {
+    float: left;
+    height: auto;
+    background: #F5F5F5;
+    overflow-y: unset;
+}
+
+.emp .list-group {
+    float: left;
+    height: auto;
+    background: #F5F5F5;
+    overflow-y: unset;
+    width: 100%;
+}
+
+.courses .list-group {
+    float: left;
+    background: #F5F5F5;
+    overflow-y: unset;
+    height: auto;
+}
+
+.accountcourses .list-group {
+    float: left;
+    height: auto;
+    background: #F5F5F5;
+    overflow-y: unset;
+    width: 100%;
+}
+
+.list-group {
+    float: left;
+    height: 396px;
+    background: #F5F5F5;
+    overflow-y: unset;
+}
+
+.force-overflow {
+    height: 100%;
+    border-radius: 0;
+}
+
+#lessflow::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#lessflow::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#lessflow::-webkit-scrollbar-thumb {
+    background-color: #ee7902;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .2) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .2) 75%, transparent 75%, transparent)
+}
+
+.analyzequiz {
+    color: #000;
+    text-align: center;
+}
+
+.lessicons {
+    display: flex;
+    margin-top: 2px;
+}
+
+.lessicons .previous {
+    border-left: 1px solid #bbb;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.lessicons .previous .btn {
+    width: 40px;
+}
+
+.lessicons .previous .btn i {
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.lessicons .next {
+    border-left: 1px solid #bbb;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.lessicons .next .btn {
+    width: 40px;
+}
+
+.lessicons .next .btn i {
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.lessicons .topicslist {
+    border-left: 1px solid #bbb;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.lessicons .topicslist .btn {
+    width: 40px;
+}
+
+.lessicons .topicslist .btn i {
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.lessicons .notes {
+    border-left: 1px solid #bbb;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.lessicons .notes .btn {
+    width: 40px;
+    line-height: 25px;
+}
+
+.lessicons .notes .btn i {
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.lessicons .question {
+    border-left: 1px solid #bbb;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.lessicons .question .btn {
+    width: 43px
+}
+
+.lessicons .question .btn i {
+    font-size: 19px;
+}
+
+.lessicons .search {
+    border-left: 1px solid #bbb;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.lessicons .search .btn {
+    width: 43px
+}
+
+.lessicons .search .btn i {
+    font-size: 19px;
+}
+
+.lessicons .audio {
+    border-left: 1px solid #bbb;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.lessicons .audio .btn {
+    width: 43px
+}
+
+.lessicons .audio .btn svg {
+    font-size: 19px;
+}
+
+.lessicons .docu .btn {
+    width: 43px
+}
+
+.lessicons .docu {
+    border-left: 1px solid #bbb;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.lessicons .docu .btn svg {
+    font-size: 19px;
+}
+
+.lessicons .down .btn {
+    width: 43px
+}
+
+.lessicons .down {
+    border-left: 1px solid #bbb;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.lessicons .down .btn svg {
+    font-size: 19px;
+}
+
+.lessicons .lessclose {
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.lessicons .lessclose .btn {
+    width: 43px
+}
+
+.lessicons .lessclose .btn i {
+    font-size: 19px;
+}
+
+/* ---------------------------------------------------
+SIDEBAR STYLE
+----------------------------------------------------- */
+#topicssidebar {
+    width: 33.333%;
+    position: fixed;
+    top: 16.88888%;
+    right: -33.333%;
+    z-index: 999;
+    background: #7386D5;
+    color: #3d3d3d;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#topicssidebar .card .scroll {
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    height: 507px;
+    overflow-x: hidden;
+}
+
+#topicssidebar .card .scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#topicssidebar .card .scroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#topicssidebar .card .scroll::-webkit-scrollbar-thumb {
+    background-color: #ee7902;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .2) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .2) 75%, transparent 75%, transparent)
+}
+
+#topicssidebar.active {
+    right: 0;
+}
+
+/* ---------------------------------------------------
+SIDEBAR STYLE
+----------------------------------------------------- */
+#topicssidebar {
+    width: 33.333%;
+    position: fixed;
+    top: 16.88888%;
+    right: -33.333%;
+    z-index: 999;
+    background: #f7f7f7;
+    color: #3d3d3d;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#topicssidebar .card .scroll {
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    height: 457px;
+    overflow-x: hidden;
+}
+
+#topicssidebar .card .scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#topicssidebar .card .scroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#topicssidebar .card .scroll::-webkit-scrollbar-thumb {
+    background-color: #ee7902;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .2) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .2) 75%, transparent 75%, transparent)
+}
+
+#topicssidebar.active {
+    right: 0;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 85%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    top: 16.88888%;
+}
+
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+/* ---------------------------------------------------
+SIDEBAR STYLE
+----------------------------------------------------- */
+#notessidebar {
+    width: 33.333%;
+    position: fixed;
+    top: 16.88888%;
+    right: -33.333%;
+    z-index: 999;
+    background: #f7f7f7;
+    color: #3d3d3d;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#notessidebar .card .scroll {
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    height: 507px;
+    overflow-x: hidden;
+}
+
+#notessidebar .card .scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#notessidebar .card .scroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#notessidebar .card .scroll::-webkit-scrollbar-thumb {
+    background-color: #ee7902;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .2) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .2) 75%, transparent 75%, transparent)
+}
+
+#notessidebar.active {
+    right: 0;
+}
+
+#notessidebar .card-footer .btn {
+    border-left: 1px solid #333;
+    border-radius: 0;
+    width: 30%;
+    background: rgba(0,0,0,.9);
+    color: #fcfcfc;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 22px;
+    text-align: center;
+    background: #f7f7f7;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#dismiss:hover {
+    background: #f7f7f7;
+    color: #000000;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 85%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    top: 16.88888%;
+}
+
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+/* ---------------------------------------------------
+SIDEBAR STYLE
+----------------------------------------------------- */
+#notessidebar {
+    width: 33.333%;
+    position: fixed;
+    top: 16.88888%;
+    right: -33.333%;
+    z-index: 999;
+    background: #7386D5;
+    color: #3d3d3d;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#notessidebar .card .scroll {
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    height: 448px;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5pt;
+}
+
+#notessidebar .card .scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#notessidebar .card .scroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#notessidebar .card .scroll::-webkit-scrollbar-thumb {
+    background-color: #ee7902;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .2) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .2) 75%, transparent 75%, transparent)
+}
+
+#notessidebar.active {
+    right: 0;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 85%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    top: 16.88888%;
+}
+
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+.note-body {
+    position: relative;
+    border: 0;
+    width: 100%;
+    height: 507px;
+    resize: none;
+    background: url('../images/bg-note.jpg') repeat;
+    font-size: 15px;
+    padding: 10px 22px;
+    color: #666;
+    text-align: left;
+    line-height: 40px;
+    overflow: auto;
+    outline: none;
+}
+
+.topicslesson {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.topicslesson .lessonitems {
+    display: flex;
+    width: 100%;
+}
+
+.topicslesson .card-footer .btn {
+    border-left: 1px solid #333;
+    border-radius: 0;
+    width: 30%;
+    background: rgba(0,0,0,.9);
+    color: #fcfcfc;
+}
+
+.topicslesson .lessonitems .video {
+    justify-content: flex-end;
+    height: 100%;
+    width: 50%;
+    padding: 1%;
+    margin: auto;
+    display: flex;
+}
+
+.topicslesson .lessonitems .video a {
+}
+
+.topicslesson .lessonitems .video svg {
+    width: 35px;
+    height: 100%;
+    margin: auto;
+    padding: 5%;
+}
+
+.topicslesson .lessonitems .audio {
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    padding: 1%;
+    margin: auto;
+    display: flex;
+}
+
+.topicslesson .lessonitems .audio a {
+}
+
+.topicslesson .lessonitems .audio svg {
+    width: 35px;
+    height: 100%;
+    margin: auto;
+    padding: 5%;
+}
+
+.topicslesson .lessonitems .document {
+    justify-content: flex-end;
+    height: 100%;
+    width: 50%;
+    padding: 1%;
+    margin: auto;
+    display: flex;
+}
+
+.topicslesson .lessonitems .document a {
+}
+
+.topicslesson .lessonitems .document svg {
+    width: 35px;
+    height: 100%;
+    margin: auto;
+    padding: 5%;
+}
+
+.topicslesson .lessonitems .download {
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    padding: 1%;
+    margin: auto;
+    display: flex;
+}
+
+.topicslesson .lessonitems .download a {
+}
+
+.topicslesson .lessonitems .download svg {
+    width: 35px;
+    height: 100%;
+    margin: auto;
+    padding: 5%;
+}
+
+.topicslesson .card-footer .score {
+    height: 100%;
+    width: 39%;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    padding: 2%;
+}
+
+.topicslesson .card-footer .score a {
+    text-decoration: none;
+}
+
+.topicslesson .card-footer .score .gainscore {
+    font-size: 20px;
+    text-align: center;
+}
+
+.topicslesson .card-footer .score .yourscore {
+    font-size: 9px;
+}
+
+#topicssidebar .quiz .completed {
+    background: url('../images/timeline-completed.png');
+    background-size: 11px;
+    background-repeat-x: no-repeat;
+    background-position: 100% 0%;
+}
+
+#topicssidebar .quiz .lessonprogress {
+    background: url('../images/timeline.png');
+    background-size: 15px;
+    background-repeat-x: no-repeat;
+    background-position: 100% 0%;
+}
+
+/*/////----- quiz page -----/////*/
+.quizoptions .col-md-6 {
+    border-top: 1px dashed #6d6d6d;
+    border-bottom: 1px dashed #6d6d6d;
+    padding: 10px;
+}
+
+.quizoption {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.quizoption input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkround {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff ;
+    border-color: #f8204f;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+.quizoption input:checked ~ .checkround {
+    background-color: #fff;
+}
+
+.checkround:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.quizoption input:checked ~ .checkround:after {
+    display: block;
+}
+
+.quizoption .checkround:after {
+    left: 2px;
+    top: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #f8204f;
+}
+
+.myaccount {
+    margin-top: 5em;
+}
+
+.accountcourses .progress-circle {
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    height: 2.5rem;
+    margin: 0;
+    position: relative;
+    width: 2.5rem;
+}
+
+.accountcourses .progress-circle:before {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    content: attr(data-progress) '%';
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    position: absolute;
+    left: .3rem;
+    right: .1rem;
+    top: .3rem;
+    bottom: .1rem;
+    transition: -webkit-transform 0.2s ease;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+    width: 75%;
+    height: 75%;
+}
+
+.accountcourses .progress-circle:after {
+    background-color: #ee7902;
+    border-radius: 50%;
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.accountcourses .progress-circle:hover:before, .accountcourses .progress-circle:focus:before {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+/**
+* $step is set to 5 by default, meaning you can only use percentage classes in increments of five (e.g. 25, 30, 45, 50, and so on). This helps to reduce the size of the final CSS file. If you need a number that doesn't end in 0 or 5, you can change the text percentage while rounding the class up/down to the nearest 5.
+*/
+.accountcourses .progress-circle[data-progress="0"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(90deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="1"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(93.6deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="2"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(97.2deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="3"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(100.8deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="4"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(104.4deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="5"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(108deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="6"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(111.6deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="7"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(115.2deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="8"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(118.8deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="9"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(122.4deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="10"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(126deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="11"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(129.6deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="12"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(133.2deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="13"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(136.8deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="14"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(140.4deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="15"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(144deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="16"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(147.6deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="17"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(151.2deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="18"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(154.8deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="19"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(158.4deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="20"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(162deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="21"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(165.60000000000002deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="22"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(169.2deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="23"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(172.8deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="24"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(176.4deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="25"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(180deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="26"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(183.60000000000002deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="27"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(187.2deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="28"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(190.8deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="29"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(194.4deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="30"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(198deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="31"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(201.60000000000002deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="32"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(205.2deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="33"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(208.8deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="34"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(212.4deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="35"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(216deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="36"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(219.6deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="37"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(223.20000000000002deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="38"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(226.8deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="39"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(230.4deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="40"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(234deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="41"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(237.6deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="42"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(241.20000000000002deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="43"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(244.8deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="44"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(248.4deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="45"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(252deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="46"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(255.6deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="47"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(259.20000000000005deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="48"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(262.8deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="49"]:after {
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(266.4deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="50"]:after {
+    background-image: linear-gradient(-90deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="51"]:after {
+    background-image: linear-gradient(-86.4deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="52"]:after {
+    background-image: linear-gradient(-82.8deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="53"]:after {
+    background-image: linear-gradient(-79.2deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="54"]:after {
+    background-image: linear-gradient(-75.6deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="55"]:after {
+    background-image: linear-gradient(-72deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="56"]:after {
+    background-image: linear-gradient(-68.4deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="57"]:after {
+    background-image: linear-gradient(-64.8deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="58"]:after {
+    background-image: linear-gradient(-61.2deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="59"]:after {
+    background-image: linear-gradient(-57.6deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="60"]:after {
+    background-image: linear-gradient(-54deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="61"]:after {
+    background-image: linear-gradient(-50.4deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="62"]:after {
+    background-image: linear-gradient(-46.8deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="63"]:after {
+    background-image: linear-gradient(-43.199999999999996deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="64"]:after {
+    background-image: linear-gradient(-39.6deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="65"]:after {
+    background-image: linear-gradient(-36deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="66"]:after {
+    background-image: linear-gradient(-32.4deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="67"]:after {
+    background-image: linear-gradient(-28.799999999999997deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="68"]:after {
+    background-image: linear-gradient(-25.200000000000003deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="69"]:after {
+    background-image: linear-gradient(-21.599999999999994deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="70"]:after {
+    background-image: linear-gradient(-18deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="71"]:after {
+    background-image: linear-gradient(-14.399999999999991deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="72"]:after {
+    background-image: linear-gradient(-10.799999999999997deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="73"]:after {
+    background-image: linear-gradient(-7.200000000000003deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="74"]:after {
+    background-image: linear-gradient(-3.599999999999994deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="75"]:after {
+    background-image: linear-gradient(0deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="76"]:after {
+    background-image: linear-gradient(3.600000000000009deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="77"]:after {
+    background-image: linear-gradient(7.200000000000003deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="78"]:after {
+    background-image: linear-gradient(10.799999999999997deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="79"]:after {
+    background-image: linear-gradient(14.400000000000006deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="80"]:after {
+    background-image: linear-gradient(18deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="81"]:after {
+    background-image: linear-gradient(21.60000000000001deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="82"]:after {
+    background-image: linear-gradient(25.200000000000003deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="83"]:after {
+    background-image: linear-gradient(28.799999999999997deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="84"]:after {
+    background-image: linear-gradient(32.400000000000006deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="85"]:after {
+    background-image: linear-gradient(36deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="86"]:after {
+    background-image: linear-gradient(39.599999999999994deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="87"]:after {
+    background-image: linear-gradient(43.20000000000002deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="88"]:after {
+    background-image: linear-gradient(46.80000000000001deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="89"]:after {
+    background-image: linear-gradient(50.400000000000006deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="90"]:after {
+    background-image: linear-gradient(54deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="91"]:after {
+    background-image: linear-gradient(57.599999999999994deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="92"]:after {
+    background-image: linear-gradient(61.20000000000002deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="93"]:after {
+    background-image: linear-gradient(64.80000000000001deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="94"]:after {
+    background-image: linear-gradient(68.4deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="95"]:after {
+    background-image: linear-gradient(72deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="96"]:after {
+    background-image: linear-gradient(75.6deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="97"]:after {
+    background-image: linear-gradient(79.20000000000002deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="98"]:after {
+    background-image: linear-gradient(82.80000000000001deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="99"]:after {
+    background-image: linear-gradient(86.4deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
+
+.accountcourses .progress-circle[data-progress="100"]:after {
+    background-image: linear-gradient(90deg, #ee7902 50%, transparent 50%, transparent), linear-gradient(270deg, #ee7902 50%, #ddd 50%, #ddd);
+}
